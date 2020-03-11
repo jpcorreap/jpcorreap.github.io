@@ -31,6 +31,17 @@ p {
     background: radial-gradient(circle, rgba(121,63,9,1) 67%, rgba(255,255,255,1) 100%);
   }
 
+  #r_caribe {
+    color: white;
+    background: rgb(121,63,9);
+    background: radial-gradient(circle, rgb(255, 153, 69) 67%, rgba(255,255,255,1) 100%);
+  }
+
+  #r_andina {
+    color: white;
+    background: rgb(243, 175, 27);
+    background: radial-gradient(circle, rgb(192, 54, 139) 67%, rgba(255,255,255,1) 100%);
+  }
 
   #mainTitle {
     width: 100%;
