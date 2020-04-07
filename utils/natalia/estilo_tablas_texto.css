@@ -43,3 +43,7 @@ p {
     font-family: Lato;
     text-align: justify;
 }
+
+td {
+    background-color: white;
+}
