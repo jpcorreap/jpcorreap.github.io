@@ -71,7 +71,7 @@
           let aImprimir = linea;
           let spliteada = linea.split(moodleURL);
           if (spliteada.length > 1) {
-            if (spliteada[1].includes("mp3")) {
+            if (spliteada[1].includes(".mp3")) {
               let auxiliar1 = spliteada[1].split('">')[0];
               let nombreArchivo = auxiliar1.split("/")[5];
 
@@ -147,8 +147,10 @@
       }
 
       function arreglarNombre(nombre) {
-        nombre = nombre.replace("%20", "");
+        nombre = nombre.split("%20");
+        nombre = nombre.join('_');
         nombre = nombre.replace("%C3%BC", "u");
+        nombre = nombre.replace("%C3%9C", "U");
         nombre = nombre.replace("%C3%A4", "a");
         nombre = nombre.replace("%2B%C3%AD", "a");
         nombre = nombre.replace("%C3%B6", "o");
