@@ -71,29 +71,58 @@
           let aImprimir = linea;
           let spliteada = linea.split(moodleURL);
           if (spliteada.length > 1) {
-            let auxiliar1 = spliteada[1].split('">')[0];
-            let nombreArchivo = auxiliar1.split("/")[5];
+            if (spliteada[1].includes("mp3")) {
+              let auxiliar1 = spliteada[1].split('">')[0];
+              let nombreArchivo = auxiliar1.split("/")[5];
 
-            let linkOriginal =
-              "https://moodleinstitucional.uniandes.edu.co/" + auxiliar1;
+              let linkOriginal =
+                "https://moodleinstitucional.uniandes.edu.co/" + auxiliar1;
 
-            let nuevoRecurso = {
-              nombre: arreglarNombre(nombreArchivo),
-              link: linkOriginal,
-            };
+              let nuevoRecurso = {
+                nombre: arreglarNombre(nombreArchivo),
+                link: linkOriginal,
+              };
 
-            let carpeta = document.getElementById("carpeta").value;
-            let nuevoLink =
-              "https://raw.githubusercontent.com/DeutschUniandes/moodle/master/" +
-              carpeta +
-              "/" +
-              nuevoRecurso.nombre;
-            respuesta +=
-              linea
-                .replace(linkOriginal, nuevoLink)
-                .replace(nombreArchivo, "Audio.mp3") + "\n";
+              let carpeta = document.getElementById("carpeta").value;
+              let nuevoLink =
+                "https://raw.githubusercontent.com/DeutschUniandes/moodle/master/" +
+                carpeta +
+                "/" +
+                nuevoRecurso.nombre;
 
-            contenido.push(nuevoRecurso);
+              let aux2 = linea.split('">');
+              let parte1 = aux2[0].replace(linkOriginal, nuevoLink);
+              let parte2 = aux2[1].replace(nombreArchivo, "Audio.mp3");
+
+              respuesta += parte1 + '">' + parte2;
+
+              contenido.push(nuevoRecurso);
+            } else {
+              let auxiliar1 = spliteada[1].split('"')[0];
+              let auxiliar2 = auxiliar1.split("/");
+              let nombreArchivo = auxiliar2[auxiliar2.length - 1];
+
+              console.log("LLEGÓÓ: ", nombreArchivo);
+
+              let linkOriginal =
+                "https://moodleinstitucional.uniandes.edu.co/" + auxiliar1;
+
+              let nuevoRecurso = {
+                nombre: arreglarNombre(nombreArchivo),
+                link: linkOriginal,
+              };
+
+              let carpeta = document.getElementById("carpeta").value;
+              let nuevoLink =
+                "https://raw.githubusercontent.com/DeutschUniandes/moodle/master/" +
+                carpeta +
+                "/" +
+                nuevoRecurso.nombre;
+
+              respuesta += linea.replace(linkOriginal, nuevoLink) + "\n";
+
+              contenido.push(nuevoRecurso);
+            }
           } else {
             respuesta += linea + "\n";
           }
@@ -121,8 +150,10 @@
         nombre = nombre.replace("%20", "");
         nombre = nombre.replace("%C3%BC", "u");
         nombre = nombre.replace("%C3%A4", "a");
+        nombre = nombre.replace("%2B%C3%AD", "a");
+        nombre = nombre.replace("%C3%B6", "o");
         nombre = nombre.replace("%C3%96", "O");
-
+        nombre = nombre.replace("%C3%96", "O");
         return nombre;
       }
 
