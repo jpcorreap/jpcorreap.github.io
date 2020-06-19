@@ -69,6 +69,7 @@ img {
 
 .icon {
   align-self: left;
+  margin: 10px;
 }
 
 .row .row,
@@ -120,7 +121,8 @@ h3 {
     font-size: 40px;
   }
 
-  #content {
-    text-align: center !important;
+  #content,
+  #infoAbout {
+    text-align: center;
   }
 }
