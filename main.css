@@ -28,8 +28,7 @@ body {
 #content {
   font-size: 25px;
   padding: 30px;
-  margin-top: 50px;
-  text-align: justify;
+  margin-top: 10px;
 }
 
 .info {
@@ -89,5 +88,16 @@ img {
 }
 
 .contactIcon {
-  width: 100%;
+  width: 50px;
+  border-radius: 15%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contactIcon:hover {
+  opacity: 0.6;
+}
+
+.iconContainer {
+  margin: 20px;
 }
