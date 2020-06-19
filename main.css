@@ -121,8 +121,7 @@ h3 {
     font-size: 40px;
   }
 
-  #content,
-  #infoAbout {
+  #content {
     text-align: center;
   }
 }
