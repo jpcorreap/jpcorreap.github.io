@@ -1,6 +1,10 @@
 body {
   background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 58%, rgba(191, 238, 255, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 58%,
+    rgba(191, 238, 255, 1) 100%
+  );
 }
 
 .navbar {
@@ -17,14 +21,16 @@ body {
   width: 91.5%;
   text-align: center;
   font-size: 70px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 550px) {
-  #name { font-size: 40px }
+  #name {
+    font-size: 40px;
+  }
 }
 
 #content {
@@ -44,8 +50,13 @@ body {
   border-radius: 20px;
   color: white;
   background: rgb(0, 161, 255);
-  background: radial-gradient(circle, rgba(0, 161, 255, 1) 0%, rgba(98, 238, 210, 1) 100%, rgba(255, 255, 255, 1) 100%);
-  font-family: 'Kanit', sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(0, 161, 255, 1) 0%,
+    rgba(98, 238, 210, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Kanit", sans-serif;
   text-align: center;
   vertical-align: middle;
   margin-top: 20px;
@@ -69,7 +80,7 @@ img {
 .row .row,
 .center {
   width: 100%;
-  align-self: : center;
+  align-self: center;
   vertical-align: middle;
   align-content: center;
   margin-top: 30px;
@@ -79,7 +90,6 @@ img {
   margin: 0 auto;
   height: 400px;
   background-color: black;
-
 }
 
 #map {
@@ -101,5 +111,5 @@ img {
 }
 
 .iconContainer {
-  margin: 15px;
+  margin: 8px;
 }
