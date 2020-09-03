@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../assets/teotihuacan.jpg";
+import EN_CV from "../assets/EN_Juan Pablo Correa Puerta.pdf";
 
 function Header(props) {
   return (
@@ -11,10 +12,12 @@ function Header(props) {
               <h1 className="text-center">Juan Pablo Correa Puerta</h1>
               <br />
               <p id="description">{props.data.description}</p>
-              <br />
               <div className="container text-center">
-                <button className="btn btn-info">Download full CV</button>
+                <a href={EN_CV} download>
+                  <button className="btn btn-info">Download full CV</button>
+                </a>
               </div>
+              <br />
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ function LangUtils() {
 
   langUtils.english = {
     description:
-      "MSc in Engineering & Systems and Computing Engineering student. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as Java and Python as well basics in graphic design and video edition by using Adobe's Suit (mainly Photoshop and After Effects).",
+      "Double Degree MSc in Engineering & Systems and Computing Engineering student. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as Java and Python as well basics in graphic design and video edition by using Adobe's Suit (mainly Photoshop and After Effects).",
     buttons: ["Experience", "Education", "Download CV", "Contact"],
     educationTitle: "Education",
     education: [
@@ -40,13 +40,20 @@ function LangUtils() {
           {
             title: "Fullstack Web Development teaching assistant",
             date: "August 2020 - Present",
-            description: "Responsible",
+            description:
+              "Responsible of supporting +30 students in a Fullstack Web Development course by implementing MERN stack.",
           },
           {
             title: "Moodle LMS developer assistant",
             date: "May 2020 - September 2020",
             description:
-              "Responsable de crear, migrar, cargar y modificar contenido en HTML, CSS y JavaScript para los cursos de Alemán 1, Alemán 2 y Anfänger 1 (principiantes) al LMS Moodle de la Universidad.",
+              "Responsible of create, upload and modify content to Moodle LMS platform for German A1 and A2 courses by using HTML and CSS.",
+          },
+          {
+            title: "Programming in Python teaching assistant.",
+            date: "January 2020 - May 2020",
+            description:
+              "Responsible of support and grade +24 students in an introduction to programming course by using Python programming language.",
           },
         ],
       },
@@ -55,9 +62,9 @@ function LangUtils() {
         jobs: [
           {
             title: "Asistente operativo para docentes",
-            date: "August 2019 – December 2019",
+            date: "August 2019 - December 2019",
             description:
-              "Responsable de apoyar a los docentes en diversas tareas, desde creación y revisión de ensayos hasta calificación de laboratorios de cursos de programación en Python, esto enmarcado en el servicio becario por obtener la beca Líderes del Mañana otorgada por el Tecnológico de Monterrey.",
+              "Responsible of supporting professors in administrative tasks, from creation of essays to grade Programming in Python students, within the scolarship Leaders of Tomorrow.",
           },
         ],
       },
@@ -68,19 +75,14 @@ function LangUtils() {
             title: "Moodle LMS developer assistant",
             date: "Juny 2019 - July 2019",
             description:
-              "Responsable de crear, migrar, cargar y modificar contenido en HTML, CSS y JavaScript para los cursos de Alemán 1, Alemán 2 y Anfänger 1 (principiantes) al LMS Moodle de la Universidad.",
+              "Responsible of create, upload and modify content to Moodle LMS platform for German A1 and A2 courses by using HTML and CSS.",
           },
-          {
-            title: "Programming in Python teaching assistant.",
-            date: "January 2020 - May 2020",
-            description:
-              "Responsable de apoyar al docente en las clases. En el curso se enseñaba el lenguaje Python. Desempeño excelente.",
-          },
+
           {
             title: "Algorithmic and OOP in Java teaching assistant",
             date: "August 2017 - May 2019",
             description:
-              "Responsable de apoyar al docente en los laboratorios prácticos y de calificar más de 18 estudiantes. En el curso se usaba el lenguaje Java. Desempeño excelente.",
+              "Responsible of support and grade +24 students in an Object-oriented programming course by using Java language.",
           },
         ],
       },
@@ -168,13 +170,14 @@ function LangUtils() {
           {
             title: "Fullstack Web Development teaching assistant",
             date: "August 2020 - Present",
-            description: "",
+            description:
+              "Responsible of support professor in a Fullstack Web Development course by implementing MERN stack.",
           },
           {
             title: "Moodle LMS developer assistant",
-            date: "May 2020 - Sep 2020",
+            date: "May 2020 - September 2020",
             description:
-              "Responsable de crear, migrar, cargar y modificar contenido en HTML, CSS y JavaScript para los cursos de Alemán 1, Alemán 2 y Anfänger 1 (principiantes) al LMS Moodle de la Universidad.",
+              "Responsible of create, upload and modify content to Moodle LMS to German A1 and A2 courses with HTML and CSS languages.",
           },
         ],
       },
@@ -183,7 +186,7 @@ function LangUtils() {
         jobs: [
           {
             title: "Asistente operativo para docentes",
-            date: "ago. de 2019 – dic. de 2019",
+            date: "August 2019 – dic. de 2019",
             description:
               "Responsable de apoyar a los docentes en diversas tareas, desde creación y revisión de ensayos hasta calificación de laboratorios de cursos de programación en Python, esto enmarcado en el servicio becario por obtener la beca Líderes del Mañana otorgada por el Tecnológico de Monterrey.",
           },

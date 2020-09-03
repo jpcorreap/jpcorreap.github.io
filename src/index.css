@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 #header {
   background: url("./assets/fondo.svg") no-repeat center center fixed;
   -moz-background-size: center;
@@ -25,9 +29,11 @@
   font-size: 20px;
 }
 
-h1 {
+h1,
+h2 {
   margin-top: 100px !important;
-  font-size: 30px !important;
+  font-size: 33px !important;
+  font-family: "Sriracha", cursive;
 }
 
 .card {
@@ -43,8 +49,8 @@ h1 {
 }
 
 .section {
-  padding-top: 6vw;
-  padding-bottom: 6vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   padding: 3vw;
 }
 
@@ -63,6 +69,7 @@ h1 {
   display: flex;
   align-items: center;
 }
+
 .btn {
   margin: 0.5rem;
 }
@@ -71,26 +78,23 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 650px) {
-  #header {
-    background: url("./assets/fondo_sm.svg") no-repeat center center fixed;
-    -moz-background-size: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-  }
-
-  #img_container {
-    position: relative;
-    margin-top: 0px;
-    padding: 50px;
-    width: 100%;
+@media (max-width: 1053px) and (min-width: 767px) {
+  #description {
+    font-size: 15px;
   }
 }
 
 @media (max-width: 768px) {
   #img_container {
     visibility: hidden;
+  }
+
+  #header {
+    background: url("./assets/fondo_sm.svg") no-repeat center center fixed;
+    -moz-background-size: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
   }
 }
 
