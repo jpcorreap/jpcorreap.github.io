@@ -1,0 +1,23 @@
+{
+  "name": "webdevP1",
+  "version": "1.0.0",
+  "description": "My first project for Web Development course at Universidad de los Andes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpcorreap/webdevP1.git"
+  },
+  "keywords": [],
+  "author": "Juan Pablo Correa Puerta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpcorreap/webdevP1/issues"
+  },
+  "homepage": "https://github.com/jpcorreap/webdevP1#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
