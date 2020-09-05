@@ -55,7 +55,7 @@ function Experience(props) {
     };
 
     return (
-      <table className="table" key={i}>
+      <table className="table table-responsive" key={i}>
         <thead className="thead-dark">
           <tr className="text-center">
             <th scope="col">Company</th>

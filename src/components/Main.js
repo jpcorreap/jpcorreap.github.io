@@ -5,8 +5,8 @@ import Education from "./Education.js";
 function Main(props) {
   return (
     <main>
-      <Experience data={props.data} />
       <Education data={props.data} />
+      <Experience data={props.data} />
     </main>
   );
 }
