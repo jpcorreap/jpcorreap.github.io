@@ -8,7 +8,7 @@ function LangUtils() {
     educationTitle: "Education",
     education: [
       {
-        title: "Master of Science in Engineering",
+        title: "Profesional Exchange",
         institution: "École Centrale de Nantes",
         city: "Nantes, France",
         date: "September 2020 - Present",
