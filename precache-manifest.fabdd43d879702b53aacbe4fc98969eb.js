@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0553ec068762b06cd266cc32b81d78ce",
+    "revision": "932277f4a9bad4944329deb15a0bb074",
     "url": "/index.html"
   },
   {
-    "revision": "5a2a2dd86d3b10a1422b",
+    "revision": "6e452de27ffd3215da2c",
     "url": "/static/css/2.0f8e233a.chunk.css"
   },
   {
-    "revision": "96924091a0a53f100b61",
+    "revision": "ce7e4733a41faf2b7ee9",
     "url": "/static/css/main.175d9e71.chunk.css"
   },
   {
-    "revision": "5a2a2dd86d3b10a1422b",
-    "url": "/static/js/2.6ebe17c1.chunk.js"
+    "revision": "6e452de27ffd3215da2c",
+    "url": "/static/js/2.a9da0123.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.6ebe17c1.chunk.js.LICENSE.txt"
+    "revision": "3601b13d0184555b225cd36f61dfe2f2",
+    "url": "/static/js/2.a9da0123.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96924091a0a53f100b61",
-    "url": "/static/js/main.3d4e7101.chunk.js"
+    "revision": "ce7e4733a41faf2b7ee9",
+    "url": "/static/js/main.7b9f1400.chunk.js"
   },
   {
     "revision": "43a35879e3513e16e772",
@@ -60,11 +60,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/personal_photo.2c72e084.png"
   },
   {
+    "revision": "872f9685f2788472e27e5954016394a7",
+    "url": "/static/media/senecare.872f9685.mp4"
+  },
+  {
     "revision": "358903239db0b801f96ad67413265fad",
     "url": "/static/media/uniandes.35890323.png"
   },
   {
     "revision": "afbb2bf9ebc5c75fd5d7e3c862605d47",
     "url": "/static/media/upb.afbb2bf9.png"
+  },
+  {
+    "revision": "fe60353509b66ac204086994b08afdd1",
+    "url": "/static/media/utp.fe603535.png"
   }
 ]);
