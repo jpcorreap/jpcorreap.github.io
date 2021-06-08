@@ -1,6 +1,9 @@
 import React from "react";
 import Uniandes_logo from "../assets/uniandes.png";
 import ITESM_logo from "../assets/itesm.png";
+import senecareVideo from "../assets/senecare.mp4";
+import { Typography } from "@material-ui/core";
+import Link from "@material-ui/core/Link";
 
 function Experience(props) {
   let images = [
@@ -73,10 +76,28 @@ function Experience(props) {
     <div>
       <div className="section color_2">
         <h2 className="text-center">{props.data["work_experienceTitle"]}</h2>
+        <br />
+        <h3 className="text-center">Most recent project</h3>
+        <p className="text-center">(and of which I am most proud 😀)</p>
         <div className="row justify-content-center">
-          {props.data["work_experience"].map((workExp, i) =>
-            createExperienceTable(workExp, i)
-          )}
+          <video width="80%" height="auto" controls loop>
+            <source src={senecareVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div style={{ padding: 20 }}>
+            <Typography variant="body2" color="textSecondary" align="center">
+              * Know more about this iniciative by visiting{" "}
+              <Link
+                color="inherit"
+                href="https://thesoftwaredesignlab.github.io/Senecare/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                SeneCare
+              </Link>
+              .
+            </Typography>
+          </div>
         </div>
       </div>
     </div>

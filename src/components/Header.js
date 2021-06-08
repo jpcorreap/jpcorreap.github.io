@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/teotihuacan.jpg";
+import Image from "../assets/personal_photo.png";
 import EN_CV from "../assets/EN_Juan Pablo Correa Puerta.pdf";
 
 function Header(props) {
@@ -12,7 +12,6 @@ function Header(props) {
               <h1 className="text-center">Juan Pablo Correa Puerta</h1>
               <img
                 id="header_img_mobile"
-                className="rounded-circle mx-auto d-block"
                 src={Image}
                 alt="Juan Pablo at Teotihuacán"
               />

@@ -3,21 +3,21 @@ function LangUtils() {
 
   langUtils.english = {
     description:
-      "Double Degree MSc in Engineering & Systems and Computing Engineering student. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as Java and Python as well basics in graphic design and video edition by using Adobe's Suit (mainly Photoshop and After Effects).",
+      "Last semester BSc in Systems and Computing Engineering student with minor in German Language and Culture. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as JavaScript, Python and Java. Focused on Web development implementing MERN (Mongo, Express, React and Node) stack",
     buttons: ["Experience", "Education", "Download CV", "Contact"],
     educationTitle: "Education",
     education: [
       {
-        title: "Profesional Exchange",
-        institution: "École Centrale de Nantes",
-        city: "Nantes, France",
-        date: "September 2020 - Present",
+        title: "Highschool",
+        institution: "Universidad Pontificia Bolivariana",
+        city: "Medellín, Colombia",
+        date: "December 2016",
       },
       {
-        title: "Systems and Computing Engineering",
+        title: "BSc Systems and Computing Engineering",
         institution: "Universidad de los Andes",
         city: "Bogotá, Colombia",
-        date: "January 2017 - Present",
+        date: "January 2017 - Present. Graduation date: October 2021",
       },
       {
         title: "Professional Exchange",
@@ -26,10 +26,16 @@ function LangUtils() {
         date: "August - December 2019",
       },
       {
-        title: "Highschool",
-        institution: "Universidad Pontificia Bolivariana",
-        city: "Medellín, Colombia",
-        date: "December 2016",
+        title: "Professional Exchange",
+        institution: "École Centrale de Nantes",
+        city: "Nantes, France",
+        date: "September 2020 - January 2021",
+      },
+      {
+        title: "Diploma Course in Software Development",
+        institution: "Universidad Tecnológica de Pereira",
+        city: "Pereira, Colombia",
+        date: "December 2020",
       },
     ],
     work_experienceTitle: "Work experience",
@@ -103,15 +109,13 @@ function LangUtils() {
         platform: "Coursera",
         id: "8CY4M4LQ3JUT",
         date: "jul 2020",
-        link:
-          "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
+        link: "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
       },
       {
         name: "Certificación Introductoria en Big Data y Ciencia de Datos",
         institution: "Buiness Data Evolution",
         date: "nov. de 2019",
-        link:
-          "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
+        link: "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
       },
     ],
     awards: [
@@ -232,15 +236,13 @@ function LangUtils() {
         platform: "Coursera",
         id: "8CY4M4LQ3JUT",
         date: "jul 2020",
-        link:
-          "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
+        link: "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
       },
       {
         name: "Certificación Introductoria en Big Data y Ciencia de Datos",
         institution: "Buiness Data Evolution",
         date: "nov. de 2019",
-        link:
-          "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
+        link: "https://www.coursera.org/account/accomplishments/certificate/8CY4M4LQ3JUT",
       },
     ],
     awards: [
