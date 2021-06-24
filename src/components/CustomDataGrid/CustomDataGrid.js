@@ -135,7 +135,7 @@ function CustomDataGrid({ columns, rows, isLoading }) {
     <Grid
       item
       style={{
-        height: "700px",
+        height: "800px",
         padding: "30px",
       }}
     >
@@ -144,7 +144,7 @@ function CustomDataGrid({ columns, rows, isLoading }) {
         rows={rows}
         columns={cellExpandColumns}
         //localeText={DATAGRID_SPANISH_TEXT}
-        pageSize={9}
+        pageSize={11}
         density={"standard"}
         components={{
           Toolbar: GridToolbar,

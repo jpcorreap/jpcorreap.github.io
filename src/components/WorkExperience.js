@@ -36,15 +36,24 @@ function WorkExperience() {
   const rows = [
     {
       id: 0,
+      date: "Jan 2021 - Present",
+      company: "University Project",
+      title: "Mobile Developer",
+      description:
+        "Develop and maintenance of Flutter app for https://gradua.herokuapp.com/ (code remains private at this moment)",
+      technologies: "Flutter",
+    },
+    {
+      id: 1,
       date: "Nov 2020 - Present",
       company: "Alfred",
       title: "Software Developer",
       description:
-        "Develop and maintenance of two web applications to customers. Implemented with React, Redux and Material UI.",
+        "Develop and maintenance of two web applications to customers and maintenance of a Django backend.",
       technologies: "React, Redux, Material UI",
     },
     {
-      id: 1,
+      id: 2,
       date: "Aug - Dec 2020",
       company: "Universidad de los Andes",
       title: "Fullstack Web Development teaching assistant",
@@ -53,7 +62,7 @@ function WorkExperience() {
       technologies: "Mongo, Express, React, Node",
     },
     {
-      id: 2,
+      id: 3,
       date: "May - Sep 2020",
       company: "Universidad de los Andes",
       title: "Moodle LMS developer assistant",
@@ -62,7 +71,16 @@ function WorkExperience() {
       technologies: "Moodle, HTML, CSS, JavaScript",
     },
     {
-      id: 3,
+      id: 4,
+      date: "Sep - Dec 2020",
+      company: "Universidad de los Andes",
+      title: "Volunteer in University's COVIDA Project",
+      description:
+        "Responsible of developing a mobile app to track patients remotely. The app was called PlusVida.",
+      technologies: "Flutter",
+    },
+    {
+      id: 5,
       date: "Jan - May 2020",
       company: "Universidad de los Andes",
       title: "Python Programming teaching assistant",
@@ -71,7 +89,7 @@ function WorkExperience() {
       technologies: "Python",
     },
     {
-      id: 4,
+      id: 6,
       date: "Aug - Dec 2019",
       company: "Tecnológico de Monterrey",
       title: "Teaching assistant",
@@ -80,7 +98,7 @@ function WorkExperience() {
       technologies: "Python",
     },
     {
-      id: 5,
+      id: 7,
       date: "Jun - Jul 2019",
       company: "Universidad de los Andes",
       title: "Moodle LMS developer assistant",
@@ -89,7 +107,7 @@ function WorkExperience() {
       technologies: "Moodle, HTML, CSS, JavaScript",
     },
     {
-      id: 6,
+      id: 8,
       date: "Jan - May 2019",
       company: "Universidad de los Andes",
       title: "Algorithmic and OOP in Java teaching assistant",
@@ -98,7 +116,7 @@ function WorkExperience() {
       technologies: "Java",
     },
     {
-      id: 7,
+      id: 9,
       date: "Jan - May 2018",
       company: "Universidad de los Andes",
       title: "Algorithmic and OOP in Java teaching assistant",
@@ -107,7 +125,7 @@ function WorkExperience() {
       technologies: "Java",
     },
     {
-      id: 8,
+      id: 10,
       date: "Aug - Dic 2017",
       company: "Universidad de los Andes",
       title: "Algorithmic and OOP in Java teaching assistant",
@@ -123,7 +141,7 @@ function WorkExperience() {
       <Grid
         item
         style={{
-          height: "700px",
+          height: "800px",
         }}
       >
         <CustomDataGrid columns={columns} rows={rows} />
