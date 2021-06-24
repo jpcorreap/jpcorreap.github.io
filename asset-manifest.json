@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.175d9e71.chunk.css",
-    "main.js": "/static/js/main.ac7daeee.chunk.js",
-    "main.js.map": "/static/js/main.ac7daeee.chunk.js.map",
+    "main.js": "/static/js/main.267c0607.chunk.js",
+    "main.js.map": "/static/js/main.267c0607.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.84d0a7bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.84d0a7bc.js.map",
     "static/css/2.0f8e233a.chunk.css": "/static/css/2.0f8e233a.chunk.css",
-    "static/js/2.a9da0123.chunk.js": "/static/js/2.a9da0123.chunk.js",
-    "static/js/2.a9da0123.chunk.js.map": "/static/js/2.a9da0123.chunk.js.map",
+    "static/js/2.845524c9.chunk.js": "/static/js/2.845524c9.chunk.js",
+    "static/js/2.845524c9.chunk.js.map": "/static/js/2.845524c9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.377a268ad76bb19092f3a8316de9e907.js": "/precache-manifest.377a268ad76bb19092f3a8316de9e907.js",
+    "precache-manifest.1a797d97ae5d85cac8080a1b012ab982.js": "/precache-manifest.1a797d97ae5d85cac8080a1b012ab982.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0f8e233a.chunk.css.map": "/static/css/2.0f8e233a.chunk.css.map",
     "static/css/main.175d9e71.chunk.css.map": "/static/css/main.175d9e71.chunk.css.map",
-    "static/js/2.a9da0123.chunk.js.LICENSE.txt": "/static/js/2.a9da0123.chunk.js.LICENSE.txt",
+    "static/js/2.845524c9.chunk.js.LICENSE.txt": "/static/js/2.845524c9.chunk.js.LICENSE.txt",
     "static/media/ECN.png": "/static/media/ECN.d938e760.png",
     "static/media/EN_Juan Pablo Correa Puerta.pdf": "/static/media/EN_Juan Pablo Correa Puerta.1b4022a5.pdf",
     "static/media/Github_logo.c6a87854.svg": "/static/media/Github_logo.c6a87854.svg",
     "static/media/index.css": "/static/media/fondo_sm.86f21039.svg",
     "static/media/gmail.png": "/static/media/gmail.a144a185.png",
     "static/media/itesm.png": "/static/media/itesm.a647f920.png",
-    "static/media/personal_photo.png": "/static/media/personal_photo.2c72e084.png",
+    "static/media/personal_photo.jpg": "/static/media/personal_photo.b85c7b73.jpg",
     "static/media/senecare.mp4": "/static/media/senecare.872f9685.mp4",
     "static/media/uniandes.png": "/static/media/uniandes.35890323.png",
     "static/media/upb.png": "/static/media/upb.afbb2bf9.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.84d0a7bc.js",
     "static/css/2.0f8e233a.chunk.css",
-    "static/js/2.a9da0123.chunk.js",
+    "static/js/2.845524c9.chunk.js",
     "static/css/main.175d9e71.chunk.css",
-    "static/js/main.ac7daeee.chunk.js"
+    "static/js/main.267c0607.chunk.js"
   ]
 }
