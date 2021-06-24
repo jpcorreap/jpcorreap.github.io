@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/personal_photo.png";
+import Image from "../assets/personal_photo.jpg";
 import EN_CV from "../assets/EN_Juan Pablo Correa Puerta.pdf";
 
 function Header(props) {
