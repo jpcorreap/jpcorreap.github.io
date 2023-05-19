@@ -3,7 +3,7 @@ function LangUtils() {
 
   langUtils.english = {
     description:
-      "Last semester BSc in Systems and Computing Engineering student with minor in German Language and Culture. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as JavaScript, Python and Java. Focused on Web development implementing MERN (Mongo, Express, React and Node) stack",
+      "BSc in Systems and Computing Engineer with minor in German Language and Culture. MSc in Computer Science student. Technology enthusiast, interested in understanding how it can improve everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as JavaScript, Python and Java. Focused on Web development implementing MERN (Mongo, Express, React and Node) stack",
     buttons: ["Experience", "Education", "Download CV", "Contact"],
     educationTitle: "Education",
     education: [
@@ -17,7 +17,7 @@ function LangUtils() {
         title: "BSc Systems and Computing Engineering",
         institution: "Universidad de los Andes",
         city: "Bogotá, Colombia",
-        date: "January 2017 - Present. Graduation date: October 2021",
+        date: "January 2017 - October 2021",
       },
       {
         title: "Professional Exchange",
@@ -36,6 +36,12 @@ function LangUtils() {
         institution: "Universidad Tecnológica de Pereira",
         city: "Pereira, Colombia",
         date: "December 2020",
+      },
+      {
+        title: "MSc in Computer Science",
+        institution: "Tecnológico de Monterrey",
+        city: "Monterrey, México",
+        date: "From August 2022",
       },
     ],
     work_experienceTitle: "Work experience",
