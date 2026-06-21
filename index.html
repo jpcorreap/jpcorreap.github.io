@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Pablo Correa Puerta — Portfolio</title>
+  <meta name="description" content="Juan Pablo Correa Puerta — Senior Backend Engineer. Python, AWS, PostgreSQL. MSc in Computer Science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="frame">
+    <header class="site-header">
+      <a href="#home" class="logo" aria-label="Juan Pablo Correa — home">
+        <span class="logo-main">JP</span><span class="logo-sub">c</span>
+      </a>
+
+      <nav class="nav" id="primary-nav">
+        <a href="#home">home</a>
+        <a href="#about">about me</a>
+        <a href="#experience">experience</a>
+        <a href="#education">education</a>
+        <a href="#contact">contact me</a>
+      </nav>
+
+      <a class="schedule" href="https://www.linkedin.com/in/jpcorreap" target="_blank" rel="noopener">
+        <span class="schedule-dot">✦</span> Connect on LinkedIn
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main class="hero" id="home">
+      <ul class="social-rail">
+        <li><a href="https://www.linkedin.com/in/jpcorreap" target="_blank" rel="noopener" aria-label="LinkedIn">in</a></li>
+        <li><a href="mailto:juanpablocorreapuerta@gmail.com" aria-label="Email">@</a></li>
+        <li><a href="https://github.com/jpcorreap" target="_blank" rel="noopener" aria-label="GitHub">gh</a></li>
+      </ul>
+
+      <section class="intro">
+        <h1 class="name">I am Juan P.&nbsp;<span class="accent">Correa</span></h1>
+        <p class="role">And I am a Computer Scientist and a Senior BE Engineer</p>
+        <a href="#contact" class="cta">Get in Touch</a>
+      </section>
+
+      <section class="portrait" aria-hidden="false">
+        <span class="big-letter">J</span>
+        <span class="blob"></span>
+        <span class="dots"></span>
+        <div class="photo-wrap">
+          <picture>
+            <source srcset="assets/profile.webp" type="image/webp" />
+            <img src="assets/profile.jpeg" alt="Juan Pablo Correa Puerta"
+                 width="290" height="380" fetchpriority="high" decoding="async"
+                 onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';" />
+          </picture>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contact-strip">
+      <div class="info">
+        <span class="label">Email</span>
+        <a href="mailto:juanpablocorreapuerta@gmail.com">juanpablocorreapuerta@gmail.com</a>
+      </div>
+      <div class="info">
+        <span class="label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/jpcorreap" target="_blank" rel="noopener">in/jpcorreap</a>
+      </div>
+      <div class="info">
+        <span class="label">Location</span>
+        <span>Santa Monica, CA · United States</span>
+      </div>
+    </footer>
+  </div>
+
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">/ about me</p>
+      <h2>From Colombia to Mexico and the US</h2>
+      <p class="lead">
+        I deliver efficient and scalable solutions with Python, AWS, PostgreSQL and HubSpot.
+        I'm pursuing an MSc in Computer Science across Tecnológico de Monterrey (Mexico) and
+        Universidad de los Andes (Colombia), expanding my work in computer science, data
+        science and software engineering. As a Visiting Researcher at UT San Antonio, I
+        designed serious games to measure and scale computational thinking in CS students.
+      </p>
+      <ul class="skills">
+        <li>Python</li><li>AWS</li><li>PostgreSQL</li><li>Serverless</li>
+        <li>HubSpot API</li><li>Data Science</li><li>React</li><li>Flask / Django</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow">/ experience</p>
+      <h2>Where I've worked</h2>
+      <ol class="timeline">
+        <li>
+          <div class="t-head"><h3>Senior Backend Engineer</h3><span class="t-date">May 2025 — Present</span></div>
+          <p class="t-org">UP.Labs · Santa Monica, CA</p>
+          <p class="t-desc">Building backend systems for SpecSync.</p>
+        </li>
+        <li>
+          <div class="t-head"><h3>Software Developer</h3><span class="t-date">Jan 2022 — Feb 2025</span></div>
+          <p class="t-org">Luable (YC S21) · Bogotá, Colombia</p>
+          <p class="t-desc">Web backend with Python, AWS, Serverless Framework, HubSpot API, PostgreSQL.</p>
+        </li>
+        <li>
+          <div class="t-head"><h3>Visiting Researcher</h3><span class="t-date">Sep 2023 — Dec 2023</span></div>
+          <p class="t-org">The University of Texas at San Antonio</p>
+          <p class="t-desc">Serious games &amp; computational thinking research with Unity.</p>
+        </li>
+        <li>
+          <div class="t-head"><h3>Graduate Research Assistant</h3><span class="t-date">Aug 2021 — Mar 2022</span></div>
+          <p class="t-org">Universidad de los Andes · Bogotá</p>
+          <p class="t-desc">Visual analytics for public health — Flask, React, D3, Nivo.</p>
+        </li>
+        <li>
+          <div class="t-head"><h3>Teaching Assistant</h3><span class="t-date">Aug 2017 — Dec 2020</span></div>
+          <p class="t-org">Universidad de los Andes · Bogotá</p>
+          <p class="t-desc">Full Stack (MERN), Intro to Programming, OOP in Java, German for Beginners.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="section-inner">
+      <p class="eyebrow">/ education</p>
+      <h2>Academic background.</h2>
+      <div class="edu-grid">
+        <article><span class="edu-year">2026</span><h3>MSc in Computer Science</h3><p>Tecnológico de Monterrey</p></article>
+        <article><span class="edu-year">2025</span><h3>MSc in Systems &amp; Computing Engineering</h3><p>Universidad de los Andes</p></article>
+        <article><span class="edu-year">2022</span><h3>Academic Exchange, MSc Eng.</h3><p>Universidad EAFIT</p></article>
+        <article><span class="edu-year">2021</span><h3>Academic Exchange, MSc Eng.</h3><p>Centrale Nantes</p></article>
+        <article><span class="edu-year">2021</span><h3>BSc in Systems &amp; Computing Engineering</h3><p>Universidad de los Andes</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt contact" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">/ contact me</p>
+      <h2>Let's build something.</h2>
+      <p class="lead">Open to backend, data, and full-stack opportunities. Reach out anytime.</p>
+      <div class="contact-actions">
+        <a class="cta" href="mailto:juanpablocorreapuerta@gmail.com">Email me</a>
+        <a class="cta ghost" href="https://www.linkedin.com/in/jpcorreap" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Juan Pablo Correa Puerta</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
